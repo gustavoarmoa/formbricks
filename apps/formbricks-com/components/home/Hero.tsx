@@ -92,7 +92,7 @@ export const Hero: React.FC = ({}) => {
               router.push("https://app.formbricks.com/auth/signup");
               plausible("Hero_CTA_CreateSurvey");
             }}>
-            Create survey
+            Criar pesquisa
           </Button>
           <Button
             variant="secondary"

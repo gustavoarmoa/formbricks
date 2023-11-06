@@ -19,11 +19,11 @@ const Greeting: React.FC<Greeting> = ({ next, skip, name, session }) => {
       <div className="mt-auto h-1/2 space-y-6">
         <div className="px-4">
           <h1 className="pb-4 text-4xl font-bold text-slate-900">
-            👋 Hi, {name}! <br />
-            {legacyUser ? "Welcome back!" : "Welcome to Formbricks!"}
+            👋 Olá, {name}! <br />
+            {legacyUser ? "Bem-vindo de volta!" : "Bem-vindo a Formbricks!"}
           </h1>
           <p className="text-xl text-slate-500">
-            {legacyUser ? "Let's customize your account." : "Let's finish setting up your account."}
+            {legacyUser ? "Let's customize your account." : "Vamos terminar de configurar sua conta."}
           </p>
         </div>
         <div className="flex justify-between">

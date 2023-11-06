@@ -49,7 +49,7 @@ export default function SurveyStarter({
         <>
           <div className="px-7 pb-4">
             <h1 className="text-3xl font-extrabold text-slate-700">
-              You&apos;re all set! Time to create your first survey.
+              Tudo pronto! Tá na hora de criar sua pesquisa.
             </h1>
           </div>
           <TemplateList
